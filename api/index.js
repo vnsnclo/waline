@@ -1,6 +1,6 @@
-const Application = require('@waline/vercel');
+import Application from '@waline/vercel';
 
-module。exports = Application({
+export 默认 Application({
   plugins: [],
   async postSave(comment) {
     // do what ever you want after comment saved
